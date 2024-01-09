@@ -1,6 +1,4 @@
 name: Bug Report
-description: |
-  We wanna everything always working like a charm, so please let us know where our attention is needed.<br>
 title: "`BUG` "
 labels: [bug]
 body:
@@ -8,6 +6,8 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out a bug report!
+
+        We wanna everything always working like a charm, so please let us know where our attention is needed.
 
         > [!WARNING]
         > Remember to omit any private or sensitive information, as this bug report will be publicly visible.
