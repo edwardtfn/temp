@@ -68,20 +68,21 @@ body:
   - type: textarea
     attributes:
       label: Additional info
-      description: Please provide additional information that might be relevant (logs, trace export, device's yaml, etc). Please make sure to hide any private info before sharing. This bug report is available to the public.
+      description: |
+        Please provide additional information that might be relevant (logs, trace export, device's yaml, etc). Make sure to hide any private info before sharing. This bug report is available to the public.
       placeholder: |
         Device's yaml (from ESPHome Dashboard):
-        ```yaml
+        ```
         # Paste here your yaml
         ```
 
         ESPHome logs:
-        ```logs
+        ```
         # Paste here your logs
         ```
 
         Home Assistant logs (from **Settings** > **System** > **Logs**):
-        ```logs
+        ```
         # Paste here your logs
         ```
     validations:
