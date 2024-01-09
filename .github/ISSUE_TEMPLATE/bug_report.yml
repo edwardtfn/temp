@@ -1,27 +1,81 @@
 name: Bug Report
-description: Report a bug to help us improve
-title: "[BUG] "
+description: We wanna everything always working like a charm, so please let us know where our attention is needed.
+title: "`BUG` "
 labels: [bug]
 body:
   - type: markdown
     attributes:
       value: "Thanks for taking the time to fill out a bug report!"
+
+  - type: markdown
+    attributes:
+      value: "Please provide the version numbers for TFT, ESPHome, and Blueprint. You can find the TFT and ESPHome version numbers on the boot screen of your device. The Blueprint version can be found in the automation where the blueprint is set."
+
+  - type: input
+    attributes:
+      label: TFT Version
+      description: Enter the version number of TFT.
+      placeholder: e.g., 4.1.4
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: ESPHome Version
+      description: Enter the version number of ESPHome.
+      placeholder: e.g., 4.1.4
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: Blueprint Version
+      description: Enter the version number of the Blueprint.
+      placeholder: e.g., 4.1.4
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "Please provide more details about the bug"
+
   - type: input
     attributes:
       label: What is the bug?
       description: A clear and concise description of what the bug is.
-      placeholder: e.g., Crash when trying to...
+      placeholder: e.g., When I try this, I'm getting this result, while I was expecting that...
     validations:
       required: true
+
   - type: textarea
     attributes:
       label: Steps to Reproduce
-      description: Steps to reproduce the behavior.
+      description: Steps to reproduce the behavior. Please feel free to share pictures of your screen or anything relevant.
       placeholder: |
         1. Go to '...'
         2. Click on '...'
-        3. Scroll down to '...'
-        4. See error
+        3. See error
     validations:
       required: true
-  # Add more fields as needed...
+
+  - type: textarea
+    attributes:
+      label: Additional logs
+      description: Please provide additional information that might be relevant (logs, trace export, device's yaml, etc). Please make sure to hide any private info before sharing. This bug report is available to the public.
+      placeholder: |
+        Device's yaml (from ESPHome Dashboard):
+        ```yaml
+        # Paste here your yaml
+        ```
+
+        ESPHome logs:
+        ```logs
+        # Paste here your logs
+        ```
+
+        Home Assistant logs (from **Settings** > **System** > **Logs**):
+        ```logs
+        # Paste here your logs
+        ```
+    validations:
+      required: false
