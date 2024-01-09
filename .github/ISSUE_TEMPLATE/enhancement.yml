@@ -1,7 +1,7 @@
 name: Enhancement Request
 description: Suggest an idea for this project
 title: "`ENHANCEMENT` "
-labels: [enhancement]
+labels: [Enhancement]
 body:
   - type: markdown
     attributes:
