@@ -75,9 +75,9 @@ body:
       label: Your panel's YAML
       description: |
         Please provide device's YAML configuration.
-
         > [!WARNING]
         > Remember to omit any private or sensitive information, as this bug report will be publicly visible.
+      render: yaml
       placeholder: |
         substitutions:
           # Settings - Editable values
@@ -112,6 +112,5 @@ body:
         esp32:
           framework:
             type: esp-idf
-    render: yaml
     validations:
       required: false
