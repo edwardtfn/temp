@@ -1,7 +1,6 @@
 name: Bug Report
 description: |
-  We wanna everything always working like a charm, so please let us know where our attention is needed.
-  > 
+  We wanna everything always working like a charm, so please let us know where our attention is needed.<br>
 title: "`BUG` "
 labels: [bug]
 body:
