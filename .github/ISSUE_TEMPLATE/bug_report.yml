@@ -1,7 +1,6 @@
 name: Bug Report
 description: |
-  We aim to keep everything running smoothly, and your reports play a vital role in this process. Please fill out the form below with as much detail as possible to help us identify and address the issue. Your insights and detailed information are crucial for quick and effective troubleshooting. 
-  Thank you for taking the time to contribute to improving our project. 
+  We aim to keep everything running smoothly, and your reports play a vital role in this process. Please fill out the form below with as much detail as possible to help us identify and address the issue. Your insights and detailed information are crucial for quick and effective troubleshooting. Thank you for taking the time to contribute to improving our project.
 title: "`BUG` "
 labels: [bug]
 body:
