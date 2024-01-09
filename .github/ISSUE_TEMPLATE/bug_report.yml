@@ -69,21 +69,7 @@ body:
     attributes:
       label: Additional info
       description: |
-        Please provide additional information that might be relevant (logs, trace export, device's yaml, etc). Make sure to hide any private info before sharing. This bug report is available to the public.
-      placeholder: |
-        Device's yaml (from ESPHome Dashboard):
-        ```
-        # Paste here your yaml
-        ```
-
-        ESPHome logs:
-        ```
-        # Paste here your logs
-        ```
-
-        Home Assistant logs (from **Settings** > **System** > **Logs**):
-        ```
-        # Paste here your logs
-        ```
+        Please provide additional information that might be relevant. This could include logs, trace exports, device's YAML configuration, etc. Remember to omit any private or sensitive information, as this bug report will be publicly visible.
+      placeholder: "Paste any additional logs or YAML configurations here. For example: device's YAML from the ESPHome Dashboard, ESPHome logs, or Home Assistant logs."
     validations:
       required: false
