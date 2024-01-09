@@ -5,11 +5,17 @@ labels: [bug]
 body:
   - type: markdown
     attributes:
-      value: "Thanks for taking the time to fill out a bug report!"
+      value: |
+        # Bug Report
+        Thanks for taking the time to fill out a bug report!
 
   - type: markdown
     attributes:
-      value: "Please provide the version numbers for TFT, ESPHome, and Blueprint. You can find the TFT and ESPHome version numbers on the boot screen of your device. The Blueprint version can be found in the automation where the blueprint is set."
+      value: |
+        ## Please provide the version numbers for TFT, ESPHome, and Blueprint.
+
+        You can find the TFT and ESPHome version numbers on the boot screen of your device.
+        The Blueprint version can be found in the automation where the blueprint is set."
 
   - type: input
     attributes:
@@ -17,7 +23,7 @@ body:
       description: Enter the version number of TFT.
       placeholder: e.g., 4.1.4
     validations:
-      required: true
+      required: false
 
   - type: input
     attributes:
@@ -25,7 +31,7 @@ body:
       description: Enter the version number of ESPHome.
       placeholder: e.g., 4.1.4
     validations:
-      required: true
+      required: false
 
   - type: input
     attributes:
@@ -33,7 +39,7 @@ body:
       description: Enter the version number of the Blueprint.
       placeholder: e.g., 4.1.4
     validations:
-      required: true
+      required: false
 
   - type: markdown
     attributes:
