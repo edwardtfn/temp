@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
   - name: Troubleshooting TFT transfer
-    url: /docs/tft_upload.md
+    url: https://github.com/edwardtfn/temp/docs/tft_upload.md
     about: Try this guide first if you are having issues to transfer a TFT file.
   - name: Getting Started with NSPanel HA Blueprint
-    url: /docs/install.md
+    url: https://github.com/edwardtfn/temp/docs/install.md
     about: This is the starting poing for installing a new NSPanel HA Blueprint.
