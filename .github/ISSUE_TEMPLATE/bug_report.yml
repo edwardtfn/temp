@@ -1,5 +1,6 @@
 name: Bug Report
-description: "We aim to keep everything running smoothly. Please fill out the form with details to help us identify and address the issue."
+description: |
+  We aim to keep everything running smoothly. Please fill out the form with details to help us identify and address the issue.
 title: "`BUG` "
 labels: [bug]
 body:
