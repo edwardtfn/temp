@@ -5,13 +5,16 @@ labels: [bug]
 body:
   - type: markdown
     attributes:
-      value: |
+      value: >
         # Bug Report
         Thanks for taking the time to fill out a bug report!
 
+        > [!WARNING]
+        > Remember to omit any private or sensitive information, as this bug report will be publicly visible.
+
   - type: markdown
     attributes:
-      value: |
+      value: >
         ## Please provide the version numbers for TFT, ESPHome, and Blueprint
 
         You can find the TFT and ESPHome version numbers on the boot screen of your device.
@@ -43,7 +46,7 @@ body:
 
   - type: markdown
     attributes:
-      value: |
+      value: >
         ## Please provide details about the bug
 
   - type: input
@@ -58,7 +61,7 @@ body:
     attributes:
       label: Steps to Reproduce
       description: Steps to reproduce the behavior. Please feel free to share pictures of your screen or anything relevant.
-      placeholder: |
+      placeholder: >
         1. Go to '...'
         2. Click on '...'
         3. See error
@@ -67,18 +70,19 @@ body:
 
   - type: markdown
     attributes:
-      value: |
+      value: >
         ## Please provide some additional info, when possible
 
   - type: textarea
     attributes:
       label: Your panel's YAML
-      description: |
+      description: >
         Please provide device's YAML configuration.
+
         > [!WARNING]
         > Remember to omit any private or sensitive information, as this bug report will be publicly visible.
       render: yaml
-      placeholder: |
+      placeholder: >
         substitutions:
           # Settings - Editable values
           device_name: "YOUR_NSPANEL_NAME" 
@@ -112,5 +116,14 @@ body:
         esp32:
           framework:
             type: esp-idf
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: ESPHome logs
+      description: |
+        You can get this by clicking the **Logs** button related to your device on ESPHome Dashboard.
+      render: logs
     validations:
       required: false
