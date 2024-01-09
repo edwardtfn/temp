@@ -5,7 +5,7 @@ labels: [bug]
 body:
   - type: markdown
     attributes:
-      value: >
+      value: |
         # Bug Report
         Thanks for taking the time to fill out a bug report!
         > [!WARNING]
