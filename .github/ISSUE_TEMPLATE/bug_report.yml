@@ -1,6 +1,7 @@
 name: Bug Report
 description: |
   We wanna everything always working like a charm, so please let us know where our attention is needed.
+  
 title: "`BUG` "
 labels: [bug]
 body:
@@ -119,6 +120,14 @@ body:
     attributes:
       label: ESPHome logs
       description: You can get this by clicking the **Logs** button related to your device on ESPHome Dashboard.
+      render: logs
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Home Assistant logs
+      description: You can get this from **Settings** > **System** > **Logs** in your Home Assistant.
       render: logs
     validations:
       required: false
