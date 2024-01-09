@@ -6,7 +6,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        # Bug Report
         Thanks for taking the time to fill out a bug report!
 
         > [!WARNING]
@@ -17,8 +16,8 @@ body:
       value: |
         ## Please provide the version numbers for TFT, ESPHome, and Blueprint
 
-        You can find the TFT and ESPHome version numbers on the boot screen of your device.
-        The Blueprint version can be found in the automation where the blueprint is set."
+        You can find these version numbers on the boot screen of your device.
+        The Blueprint version can also be found in the automation where the blueprint is set.
 
   - type: input
     attributes:
