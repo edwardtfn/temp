@@ -23,3 +23,11 @@ body:
         Describe the enhancement in detail...
       validations:
         required: true
+
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: |
+        Provide any additional context or screenshots that might help us understand the enhancement better.
+        This could include examples from similar implementations in other projects, like Home Assistant, or any conceptual diagrams or sketches that illustrate your idea.
+      placeholder: "Add any other context or screenshots about the enhancement request here."
