@@ -8,16 +8,3 @@ contact_links:
   - name: Troubleshooting Guides
     url: [link to troubleshooting guide]
     about: Experiencing issues? Check our troubleshooting guides first for quick solutions.
-
-issue_templates:
-  - name: Bug Report
-    title: "[BUG] Brief description of the issue"
-    description: If something isn't working as expected, let us know here. Please provide as much detail as possible to help us fix it efficiently.
-    labels: [bug]
-    template: bug.yml
-
-  - name: Enhancement Request
-    title: "[ENHANCEMENT] Suggestion summary"
-    description: Have an idea to improve NSPanel HA Blueprint? We'd love to hear it! Describe your enhancement suggestion in detail.
-    labels: [enhancement]
-    template: enhancement.yml
